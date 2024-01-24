@@ -1,6 +1,6 @@
 <?php /* #?ini charset="utf-8"?
 
 [TemplateSettings]
-ExtensionAutoloadPath[]=OWSimpleOperator
+ExtensionAutoloadPath[]=owsimpleoperator
 
 */ ?>

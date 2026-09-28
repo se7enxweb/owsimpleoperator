@@ -2,9 +2,9 @@
 <software>
 <metadata>
     <name>OW Simple Operator</name>
-    <version>1.2.2</version>
+    <version>1.2.3</version>
     <copyright>Copyright (C) 2011 - 2014 OPEN WIDE; 1999 - 2014 Brookins Consulting</copyright>
-    <license>GNU General Public License v3.0 (or any later version)</license>
+    <license>GNU General Public License v2.0 (or any later version)</license>
     <info_url>https://github.com/se7enxweb/owsimpleoperator</info_url>
 </metadata>
 </software>

@@ -1,6 +1,6 @@
 {
     "name": "se7enxweb/owsimpleoperator",
-    "description": "eZ Publish extension which provides function based custom template operator support to generate complex template logic increadibly simply. Provides for simple template operator implementation guide that is needed quite often, yet missing in eZ Publish. Great for smart developers!",
+    "description": "Exponential extension which provides function based custom template operator support to generate complex template logic increadibly simply. Provides for simple template operator implementation guide that is needed quite often, yet missing in Exponential. Great for smart developers!",
     "type": "ezpublish-legacy-extension",
     "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "template", "operator", "extension", "template operator" ],
     "homepage": "https://github.com/se7enxweb/owsimpleoperator",

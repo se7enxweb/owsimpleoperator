@@ -64,7 +64,7 @@ class OWSimpleOperator
      */
     protected function ezattribute_has( $ezobject, $attribute_name )
     {
-        $attribute_value = $this->get_attribute( $ezobject, $attribute_name );
+        $attribute_value = $this->ezattribute_get( $ezobject, $attribute_name );
         return ( $attribute_value !== null );
     }
     /*!

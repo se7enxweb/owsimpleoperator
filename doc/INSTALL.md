@@ -82,9 +82,11 @@ Example from owsimpleoperator.ini.append.php
     PermittedFunctionList[]=mktime
     PermittedFunctionList[]=getdate
     PermittedFunctionList[]=str_replace
-    PermittedFunctionList[]=ereg_replace
     PermittedFunctionList[]=str_rot13
-    PermittedFunctionList[]=file_get_contents
+
+Every template can call a listed function with any argument. List only functions without side effects that read
+nothing outside their arguments: file_get_contents, for example, would let a template read any file the web server
+can read.
 
 
 Step 5 : Use it in your template

@@ -9,7 +9,7 @@
  *  SO-02 - Every listed function exists in the running PHP (ereg_replace is gone since PHP 7)
  *  SO-03 - DebugOutput is disabled, and the settings file closes its PHP comment
  *
- * @copyright Copyright (C) 1998 - 2026 7x & Exponential Foundation. All rights reserved.
+ * @copyright Copyright (C) 1998 - 2026 Exponential Foundation and 7x. All rights reserved.
  * @license For full copyright and license information view LICENSE file distributed with this source code.
  * @package tests
  */

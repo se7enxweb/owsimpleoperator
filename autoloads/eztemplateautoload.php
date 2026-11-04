@@ -19,7 +19,12 @@ $classMethods = array();
 
 foreach( $classOperatorIniSettings as $settingEntryItems )
 {
-    $settingEntry = explode( ';', $settingEntryItems );
+    // "file;class;operator"; the empty PermittedClassOperatorList[] that clears the list in the settings is skipped
+    $settingEntry = explode( ';', (string)$settingEntryItems );
+    if ( count( $settingEntry ) < 3 )
+    {
+        continue;
+    }
     $classFileName = $settingEntry[0];
     $className = $settingEntry[1];
     $classMethod = $settingEntry[2];
@@ -37,5 +42,3 @@ foreach( $classMethods as $className => $classParameters )
       $classMethods = $classParameters['operator_names'];
       $eZTemplateOperatorArray[] = array( 'script' => $classFileName, 'class' => $className, 'operator_names' => $classMethods );
 }
-
-?>

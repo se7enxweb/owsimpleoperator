@@ -34,5 +34,3 @@ class OWEzpAutoloader extends ezpAutoloader
         return dirname( self::get_class_file_path( $className ) );
     }
 }
-        
-?>

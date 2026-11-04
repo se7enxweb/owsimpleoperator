@@ -435,5 +435,3 @@ class OWSimpleOperator
         return true;
     }
 }
-
-?>

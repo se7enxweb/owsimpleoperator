@@ -1,6 +1,6 @@
 <?php
 
-$classOperatorIniSettings = eZINI::instance('owsimpleoperator.ini')->variable( 'ClassOperators', 'PermittedClassOperatorList' );
+$classOperatorIniSettings = (array)eZINI::instance('owsimpleoperator.ini')->variable( 'ClassOperators', 'PermittedClassOperatorList' );
 $eZTemplateOperatorArray = array(
     // This operator is added in owsimpleoperator.ini
      /*array(
@@ -12,7 +12,7 @@ $eZTemplateOperatorArray = array(
      array(
         'script' => 'extension/owsimpleoperator/autoloads/phpfunctionoperator.php',
         'class' => 'PHPFunctionOperator',
-        'operator_names' => eZINI::instance('owsimpleoperator.ini')->variable( 'PHPFunctions', 'PermittedFunctionList' )
+        'operator_names' => (array)eZINI::instance('owsimpleoperator.ini')->variable( 'PHPFunctions', 'PermittedFunctionList' )
         )
 );
 $classMethods = array();
